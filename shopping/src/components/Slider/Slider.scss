@@ -1,0 +1,40 @@
+.slider {
+    height: calc(100vh - 70px);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    .container {
+        display: flex;
+        transition: transform 1s ease;
+        width: 300%;
+        .slide {
+            flex: 0 0 auto;
+            width: 100vw;
+            height: 100vh;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .icons {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        left: 0;
+        right: 0;
+        bottom: 100px;
+        margin: auto;
+        width: 100px;
+
+        .icon {
+            cursor: pointer;
+            width: 25px;
+            height: 25px;
+            background-color: rgba(255, 252, 252, 0.5);
+            border-radius: 50%;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &::after {
+        content: "";
+        flex: 0 0 calc(73% - 280px);
+    }
+}
+

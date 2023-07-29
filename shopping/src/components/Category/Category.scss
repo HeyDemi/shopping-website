@@ -1,0 +1,50 @@
+.category {
+    display: flex;
+    height: 80vh;
+    margin: 10px;
+
+    .col {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        gap: 6px;
+
+    }
+    .col-lg {
+        display: flex;
+        flex: 2;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .row {
+        display: flex;
+        flex: 1;
+        gap: 6px;
+        position: relative;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        button {
+            position: absolute;
+            min-width: 90px;
+            width: fit-content;
+            height: 40px;
+            padding: 5px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            text-transform: uppercase;
+            border: none;
+            background-color: rgba(232, 235, 238, 0.85);
+            cursor: pointer;
+        }
+        
+    }
+}

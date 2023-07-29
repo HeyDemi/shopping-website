@@ -1,0 +1,56 @@
+.navbar {
+    height: 70px;
+
+    .wrapper {
+        padding: 10px 30px;
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            display: inherit;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .center {
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+
+        .right {
+            display: inherit;
+            align-items: center;
+            gap: 25px;
+
+            .icons {
+                display: inherit;
+                gap: 15px;
+                color: rgb(121, 121, 113);
+
+                .icon {
+                    cursor: pointer;
+                }
+
+            }
+
+            .shoppingCart {
+                cursor: pointer;
+
+                span {
+                    position: absolute;
+                    background-color: rgb(242, 15, 166);
+                    border-radius: 50%;
+                    width: 20px;
+                    height: 20px;
+                    font-size: 12px;
+                    line-height: 20px;
+                    top: 8px;
+                    right: 17px;
+                }
+            }
+
+
+
+        }
+    }
+}
